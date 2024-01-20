@@ -312,7 +312,6 @@
         width: 2.25rem;
         height: 2.25rem;
         border-radius: 50%;
-{!--         margin-right: var(--pf-global--spacer--md); --}
     }
     
     .ux-c-source--item__Sketch {
@@ -912,7 +911,6 @@
       }
       .ux-l-page-wrapper.toggle .drawer-toggle-button {
           transform:rotate(180deg); 
-{!--         right: 32px; --}
       }
       
       .close {
