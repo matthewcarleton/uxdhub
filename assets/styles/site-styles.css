@@ -109,7 +109,7 @@
      }
      }
      .ux-l-cards__sidepanel__filters {
-     	postion: relative;
+     	position: relative;
         max-height: 450px;
         overflow: scroll;
      }
