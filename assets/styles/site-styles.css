@@ -47,7 +47,7 @@
     }
     
     select.pf-c-form-control{
-    background-image:url(assets/images/arrow.svg) ;
+    background-image:url(/assets/images/arrow.svg) ;
     cursor: pointer;
      --pf-c-form-control--BorderBottomColor: var(--pf-global--BorderColor--300);
     }
@@ -178,7 +178,7 @@
     /** HOMEPAGE **/
     
     .ux-c-hero__home {
-        background:#000 url(assets/images/home-bg-lg.jpg) no-repeat center bottom;
+        background:#000 url(/assets/images/home-bg-lg.jpg) no-repeat center bottom;
         min-height: 100vh;
         padding: var(--pf-global--spacer--lg);
         background-size: contain;
@@ -231,7 +231,7 @@
     }
     
     .ux-c-card.ux-c-card__dark {
-        background: #000 url(assets/images/card-home-bg.png) no-repeat;
+        background: #000 url(/assets/images/card-home-bg.png) no-repeat;
         max-width: 300px;
     }
     
