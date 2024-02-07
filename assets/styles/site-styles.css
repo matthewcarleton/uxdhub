@@ -722,6 +722,7 @@
         bottom: 0;
         width: 100%;
         transition: .25s linear;
+        text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
     }
     
     .ux-c-card-method__sep {
