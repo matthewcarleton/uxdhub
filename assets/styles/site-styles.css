@@ -670,12 +670,12 @@
         border-radius: 15px;
         margin: 64px auto;
         padding: 32px 16px;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         gap: 16px;
     }
-    @container (min-width: 300px) {
+    @media screen and (min-width: 400px) {
         .ux-c-methods-process-cta {
-            flex-wrap: wrap;
+            flex-wrap: nowrap;
         }
     }
     .ux-c-methods-process-cta__img {
