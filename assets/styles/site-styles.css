@@ -673,7 +673,7 @@
         flex-wrap: wrap;
         gap: 16px;
     }
-    @media screen and (min-width: 400px) {
+    @media screen and (min-width: 615px) {
         .ux-c-methods-process-cta {
             flex-wrap: nowrap;
         }
