@@ -1206,6 +1206,7 @@
 
     .ux-c-toc__listItem__sub {
         margin-inline-start: var(--pf-global--spacer--md);
+        padding-block-start: 0; 
     }
     
     .ux-c-toc__link {
