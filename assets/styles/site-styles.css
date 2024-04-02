@@ -1183,10 +1183,14 @@
     
     .ux-c-toc__listItem  {
       padding: var(--pf-global--spacer--md) var(--pf-global--spacer--md) var(--pf-global--spacer--md) var(--pf-global--spacer--lg);
-      border-top: 1px solid var(--pf-global--BorderColor--light-100);
       list-style:none;
     
     }
+    .ux-c-toc__listItem:not(.ux-c-toc__listItem_sub){
+        border-top: 1px solid var(--pf-global--BorderColor--light-100);
+
+    }
+    
     .ux-c-toc__listItem::before  {
       content: "\2022";
       color: var(--pf-global--BorderColor--light-100);
